@@ -49,8 +49,8 @@ experiences:
     time: 2025.05 - Present
     company: 부산외국어대학교 연구팀
     details: |
-      - **LinksUp 프로젝트**: 비정형 PDF 인보이스 데이터를 RAG용 정형 데이터로 변환하는 파이프라인 구축.
-      - **검색 효율 개선**: 복잡한 문서 구조 분석을 통한 Retrieval Efficiency 향상 및 Hallucination 최소화.
+      * **LinksUp 프로젝트**: 비정형 PDF 인보이스 데이터를 RAG용 정형 데이터로 변환하는 파이프라인 구축.
+      * **검색 효율 개선**: 복잡한 문서 구조 분석을 통한 Retrieval Efficiency 향상 및 Hallucination 최소화.
 
 projects:
   title: Academic Presentations
@@ -65,16 +65,16 @@ projects:
 publications:
   title: Global & Industry Insight
   papers:
-  - title: Global Tech Expedition (Singapore)
-    authors: "National University of Singapore (NUS) & Meta Singapore (APAC HQ)"
-    conference: "글로벌 AI 연구 인프라 및 시스템 구조 분석 (2025.01)"
-  - title: Domestic Industry Insight
-    authors: "현대자동차, NAVER, 지란지교소프트"
-    conference: "모빌리티 UX 및 하이퍼스케일 AI 생태계, 보안 솔루션 환경 분석 (2026.02)"
+    - title: Global Tech Expedition (Singapore)
+      authors: "National University of Singapore (NUS) & Meta Singapore (APAC HQ)"
+      conference: "2025.01 | 글로벌 AI 연구 인프라 탐색 및 시스템 구조 분석"
+    - title: Domestic Industry Insight
+      authors: "현대자동차, NAVER, 지란지교소프트"
+      conference: "2026.02 | 모빌리티 UX 및 하이퍼스케일 AI 생태계 분석" 분석 (2026.02)"
 
 skills:
   title: Skills & Proficiency
-  info:
+  toolset:
     - category: AI & NLP
       list:
         - Retrieval-Augmented Generation (RAG)
@@ -88,7 +88,7 @@ skills:
 awards:
   title: Awards & Honors
   info:
-    - name: AI-XR 데이터 활용 경진대회 1위 (대상)
+    - name: AI-XR 데이터 활용 경진대회 최우수상
       time: 2025.12
     - name: 노코딩 경진대회 우수상
       time: 2025.11
