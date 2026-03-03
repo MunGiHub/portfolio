@@ -4,9 +4,9 @@ sidebar:
   education: True
 
   # Profile information
-  name: 전문기 (MunGi Jeon)
+  name: 전문기<br>Mun-gi Jeon
   tagline: AI Research Assistant (Undergraduate Researcher)
-  avatar: profile.jpg # /assets/images/ 폴더에 올린 파일명
+  avatar: profile.png # /assets/images/ 폴더에 올린 파일명
 
   # Sidebar links
   email: mungijn@gmail.com
@@ -18,8 +18,6 @@ sidebar:
     info:
     - idiom: Korean
       level: Native
-    - idiom: English
-      level: Intermediate
 
   interests:
     title: Interests
@@ -31,7 +29,7 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    사이버경찰학의 분석적 통찰과 컴퓨터공학의 기술력을 결합하여, 자연어 처리(NLP) 및 RAG(검색 증강 생성) 기반의 고도화된 데이터 추출 기술을 연구하고 있습니다. 
+    자연어 처리(NLP) 및 RAG(검색 증강 생성) 기반의 고도화된 데이터 추출 기술을 연구하고 있습니다. 
     현재 Docling, Clova OCR, Upstage AI 등 최신 문서 이해 엔진들을 비교 분석하며, 비정형 PDF 데이터를 AI 시스템에 최적화된 형태로 파싱하는 연구에 집중하고 있습니다.
     
     Undergraduate Researcher bridging the gap between Cyber Law/Security and Computer Science, with a focus on NLP, RAG, and advanced Data Extraction.
@@ -43,8 +41,6 @@ education:
   - degree: 사이버경찰학과 & 컴퓨터공학전공
     university: 부산외국어대학교
     time: 2021 - Present
-    details: |
-      주전공(사이버경찰)의 도메인 지식과 복수전공(컴공)의 프로그래밍 역량 확보.
 
 experiences:
   title: Experiences
@@ -53,27 +49,21 @@ experiences:
     time: 2025.05 - Present
     company: 부산외국어대학교 연구팀
     details: |
-      지도교수님 하에 NLP 및 RAG 시스템 성능 최적화를 위한 문서 파싱 연구 수행.
-      - **엔진 벤치마킹**: Docling, Clova OCR, Upstage AI의 추출 정확도 및 레이아웃 분석 성능 비교.
       - **LinksUp 프로젝트**: 비정형 PDF 인보이스 데이터를 RAG용 정형 데이터로 변환하는 파이프라인 구축.
       - **검색 효율 개선**: 복잡한 문서 구조 분석을 통한 Retrieval Efficiency 향상 및 Hallucination 최소화.
 
 projects:
   title: Academic Presentations
-  intro: >
-    주요 학술대회 발표 및 워크숍 시연 이력입니다.
   assignments:
   - title: "HCLT 2025: Oral Presentation"
     link: "#"
     tagline: "의미 기반 스키마 및 도메인 지식을 활용한 비정형 수산물 인보이스 정보 추출 시스템 발표 (대전)"
   - title: "부산외국어대학교 AI 워크숍 (2025.09)"
     link: "#"
-    tagline: "연구 프로젝트 결과 발표 및 실제 시스템 시연 수행"
+    tagline: "연구 프로젝트 결과 발표"
 
 publications:
   title: Global & Industry Insight
-  intro: |
-    글로벌 테크 탐방 및 국내 주요 기업 견학 기록입니다.
   papers:
   - title: Global Tech Expedition (Singapore)
     authors: "National University of Singapore (NUS) & Meta Singapore (APAC HQ)"
@@ -84,15 +74,26 @@ publications:
 
 skills:
   title: Skills & Proficiency
-  toolset:
-  - name: Python (Data Pipeline)
-    level: 95%
-  - name: NLP & RAG Systems
-    level: 90%
-  - name: OCR Engine Benchmarking
-    level: 92%
-  - name: JSON Metadata Structuring
-    level: 95%
+  info:
+    - category: AI & NLP
+      list:
+        - Retrieval-Augmented Generation (RAG)
+        - Information Extraction
+        - OCR Engine Benchmarking (Docling, Upstage)
+    - category: Programming
+      list:
+        - Python
+        - Data Pipeline Engineering
 
+awards:
+  title: Awards & Honors
+  info:
+    - name: AI-XR 데이터 활용 경진대회 1위 (대상)
+      time: 2025.12
+    - name: 노코딩 경진대회 우수상
+      time: 2025.11
+    - name: 사이버 감시단 우수상
+      time: 2020.11
+      
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
