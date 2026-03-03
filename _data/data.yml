@@ -49,8 +49,8 @@ experiences:
     time: 2025.05 - Present
     company: 부산외국어대학교 연구팀
     details: |
-      * **LinksUp 프로젝트**: 비정형 PDF 인보이스 데이터를 RAG용 정형 데이터로 변환하는 파이프라인 구축.
-      * **검색 효율 개선**: 복잡한 문서 구조 분석을 통한 Retrieval Efficiency 향상 및 Hallucination 최소화.
+      LinksUp 프로젝트: 비정형 PDF 인보이스 데이터를 RAG용 정형 데이터로 변환하는 파이프라인 구축.
+      검색 효율 개선: 복잡한 문서 구조 분석을 통한 Retrieval Efficiency 향상 및 Hallucination 최소화.
 
 projects:
   title: Academic Presentations
@@ -72,28 +72,28 @@ publications:
       authors: "현대자동차, NAVER, 지란지교소프트"
       conference: "2026.02 | 모빌리티 UX 및 하이퍼스케일 AI 생태계 분석" 분석 (2026.02)"
 
+# 스킬 섹션 (Orbit 테마 정석 규격)
 skills:
   title: Skills & Proficiency
   toolset:
-    - category: AI & NLP
-      list:
-        - Retrieval-Augmented Generation (RAG)
-        - Information Extraction
-        - OCR Engine Benchmarking (Docling, Upstage)
-    - category: Programming
-      list:
-        - Python
-        - Data Pipeline Engineering
+    - name: AI & NLP (RAG, Information Extraction)
+      level: 95%
+    - name: OCR Engine Benchmarking (Docling, Upstage)
+      level: 92%
+    - name: Python & Data Pipeline Engineering
+      level: 90%
+    - name: JSON Metadata Structuring
+      level: 95%
 
-awards:
+# 수상 경력 (테마가 awards를 인식하지 못할 경우를 대비해 'projects' 규격을 활용)
+# 만약 별도의 awards 섹션이 안 뜬다면, 아래처럼 'assignments' 형식을 빌려 쓰는 것이 가장 확실합니다.
+certifications:
   title: Awards & Honors
-  info:
+  list:
     - name: AI-XR 데이터 활용 경진대회 최우수상
       time: 2025.12
     - name: 노코딩 경진대회 우수상
       time: 2025.11
-    - name: 사이버 감시단 우수상
-      time: 2020.11
-      
+
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
